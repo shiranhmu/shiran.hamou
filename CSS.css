@@ -3,13 +3,13 @@
     background-color: lightblue;
     font-size: 25px;
 }
-h1 {
-    color: black;
-    font-size: 40px;
+h2 {
+    color: red;
 
 }
 .heading {
     color: green;
+    font-size: 40px;
 }
 
 #fullName {
