@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+}
+#GridContainer{
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'left main main'
+    'left main main';
+}
+
+#item1 {
+    grid-area: header;
+    width: 100%;
+    background-color: rgb(255, 153, 255);
+    height: 33vh ;
+}
+
+#item2 {
+    grid-area: left;
+    width: 100%;
+    background-color: rgb(153, 204, 255) ;
+    height: 66vh ;
+}
+
+#item3 {
+    grid-area: main;
+    width: 100%;
+    background-color: lightgreen ;
+    height: 66vh ;
+}
+/*rwd*/
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: black;
+    }
+   #GridContainer{
+    display: grid;
+    grid-template-areas:
+    'header'
+    'left'
+    'main';
+}
+
+}
